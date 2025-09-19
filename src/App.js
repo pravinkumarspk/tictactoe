@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-export default function App() {
+function App() {
   const [board, setBoard] = useState(Array(9).fill(null));
   const [curchance, setCurchance] = useState("X");
   const [winner, setWinner] = useState(null);
@@ -143,3 +143,4 @@ export default function App() {
     </div>
   );
 }
+export default App;
